@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Base Apparel - Coming Soon</title>
+  <link rel="icon" href="./images/favicon-32x32.png">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- CSS Style -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img class="logo" src="./images/logo.svg" alt="base apparel logo">
+  </header>
+  <div class="img-section">
+    <img class="main-img-mobile" src="./images/hero-mobile.jpg" alt="woman profile pic">
+    <img class="main-img-desktop" src="./images/hero-desktop.jpg" alt="woman profil pic">
+  </div>
+  <div class="info-section">
+    <h1 class="info-main-text"><span>We're</span> Coming Soon</h1>
+    <p class="info-paragraph">Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
+    <div class="form-section">
+      <form id="form" action="#">
+        <label for="email"></label>
+        <input type="email" name="email" id="email" placeholder="Email Address">
+        <img class="img-error" src="./images/icon-error.svg" alt="error icon">
+        <button id="btn" type="submit">
+          <img class="img-arrow" src="./images/icon-arrow.svg" alt="icon arrow">          
+        </button>
+      </form>
+    </div>
+    <p class="invalid">Please provide a vaild email</p>  
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
